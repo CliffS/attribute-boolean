@@ -19,11 +19,12 @@ use Attribute::Boolean::Value;
 
 =head1 VERSION
 
-Version v0.0.1
+Version v0.0.2
 
 =cut
 
-our $VERSION = v0.0.1;
+our $VERSION = v0.0.2;
+# DOn't forget the version in the pod above.
 
 =head1 SYNOPSYS
 
