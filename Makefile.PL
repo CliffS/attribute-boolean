@@ -18,8 +18,8 @@ WriteMakefile(
         'Test::More' => 0,
     },
     PREREQ_PM => {
-	'Attribute::Handlers'	=> 0.89,
-	'Variable::Magic'	=> 0.53,
+	'Attribute::Handlers'	=> 0,
+	'Variable::Magic'	=> 0,
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'attribute-boolean+-*' },
