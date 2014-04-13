@@ -2,7 +2,7 @@ NAME
     Attribute::Boolean - Mark scalars as pure booleans
 
 VERSION
-    Version v0.0.1
+    Version v1.0.2
 
 SYNOPSYS
     This allows you to flag a variable as a boolean. In numeric context, it

@@ -4,7 +4,7 @@ Attribute::Boolean - Mark scalars as pure booleans
 
 # VERSION
 
-Version v0.0.1
+Version v1.0.2
 
 # SYNOPSYS
 

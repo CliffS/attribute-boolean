@@ -8,7 +8,7 @@ use utf8;
 use parent 'Exporter';
 use Carp;
 
-our $VERSION = v0.0.2;
+our $VERSION = v1.0.3;
 our @EXPORT = qw(true false);
 
 sub true();
