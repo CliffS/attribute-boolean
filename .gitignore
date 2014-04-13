@@ -16,5 +16,5 @@ pod2htm*.tmp
 pm_to_blib
 attribute-boolean+-*
 attribute-boolean+-*.tar.gz
-README.bak
+*.bak
 .*.sw?

@@ -13,7 +13,6 @@ Attribute::Boolean - Mark scalars as pure booleans
 
 use Attribute::Handlers;
 use Variable::Magic qw( wizard cast );
-use Carp;
 use parent 'Exporter';
 
 use Attribute::Boolean::Value;
