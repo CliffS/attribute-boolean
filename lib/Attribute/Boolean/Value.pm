@@ -27,7 +27,7 @@ use overload
    '!'	   => sub { ${$_[0]} ? false : true},
    '-'	   => sub { croak 'subtraction not possible'},
    '+'	   => sub { croak 'addition not possible'},
-   # fallback => 0
+   fallback => 1
    ;
 
 my $true  = do { bless \(my $dummy = 1), __PACKAGE__ };
