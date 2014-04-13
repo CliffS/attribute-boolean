@@ -5,10 +5,16 @@ use warnings; # FATAL => 'all';
 use 5.14.0;
 use utf8;
 
+=head1 NAME
+
+Attribute::Boolean::Value - An overridden class for a boolean value
+
+=cut
+
 use parent 'Exporter';
 use Carp;
 
-our $VERSION = v1.0.3;
+our $VERSION = v1.0.4;
 our @EXPORT = qw(true false);
 
 sub true();

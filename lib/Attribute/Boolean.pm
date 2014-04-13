@@ -19,18 +19,18 @@ use Attribute::Boolean::Value;
 
 =head1 VERSION
 
-Version v1.0.2
+Version v1.0.4
 
 =cut
 
-our $VERSION = v1.0.3;
-# DOn't forget the version in the pod above.
+our $VERSION = v1.0.4;
+# Don't forget the version in the pod above.
 
 =head1 SYNOPSYS
 
 This allows you to flag a variable as a boolean.
 In numeric context, it will have the value 0 or 1.
-In string context is will have the falue "false" or "true".
+In string context is will have the value "false" or "true".
 In JSON, it will correctly return false or true values.
 
     my $bool : Boolean;
@@ -70,8 +70,8 @@ or
 
     my $bool : Boolean = true;
 
-If any perl true value is assigned, the variable is true, if any
-perl false value assigned, the variable is false.
+If any perl B<true> value is assigned, the variable is true; if a
+perl B<false> value is assigned, the variable is false.
 
 =head2 true
 
@@ -137,10 +137,10 @@ You can find documentation for this module with the perldoc command.
 =head1 ACKNOWLEDGEMENTS
 
 Alan Haggai Alavi C<< <alanhaggai@alanhaggai.org> >> for his
-Scalar::Boolean module L<Scalar::Boolean> which was the inspiration
+L<Scalar::Boolean> module  which was the inspiration
 for this module.
 
-=head1 LICENSE AND COPYRIGHT
+=head1 LICENCE AND COPYRIGHT
 
 Copyright 2014 Cliff Stanford.
 
