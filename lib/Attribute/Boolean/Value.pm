@@ -9,12 +9,16 @@ use utf8;
 
 Attribute::Boolean::Value - An overridden class for a boolean value
 
+=head1 USAGE
+
+This is a private class for use only by Attribute::Boolean
+
 =cut
 
 use parent 'Exporter';
 use Carp;
 
-our $VERSION = v1.0.4;
+our $VERSION = v1.0.5;
 our @EXPORT = qw(true false);
 
 sub true();
