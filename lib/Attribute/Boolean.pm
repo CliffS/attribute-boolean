@@ -83,7 +83,7 @@ This returns 0 in numeric context, "false" in string context.
 
 =head2 TO_JSON
 
-Provided that allow_blessed is set on the JSON (or JSON::XS) object,
+Provided that convert_blessed is set on the JSON (or JSON::XS) object,
 the variable will correctly convert to JSON true or false.
 
     my $json = new JSON;
