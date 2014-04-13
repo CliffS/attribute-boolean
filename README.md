@@ -4,7 +4,7 @@ Attribute::Boolean - Mark scalars as pure booleans
 
 # VERSION
 
-Version v0.0.1;
+Version v0.0.1
 
 # SYNOPSYS
 
@@ -30,7 +30,9 @@ This exports constants true and false.
 An attribute can be declared boolean as follows:
 
     my $bool : Boolean;
+
 or
+
     my $bool : Boolean = true;
 
 If any perl true value is assigned, the variable is true, if any
@@ -64,7 +66,7 @@ the variable will correctly convert to JSON true or false.
 
 # AUTHOR
 
-Cliff Stanford, `<cpan at may.be>`
+Cliff Stanford, `<cpan@may.be>`
 
 # BUGS
 

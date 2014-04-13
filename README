@@ -2,7 +2,7 @@ NAME
     Attribute::Boolean - Mark scalars as pure booleans
 
 VERSION
-    Version v0.0.1;
+    Version v0.0.1
 
 SYNOPSYS
     This allows you to flag a variable as a boolean. In numeric context, it
@@ -25,7 +25,9 @@ USAGE
     An attribute can be declared boolean as follows:
 
         my $bool : Boolean;
+
     or
+
         my $bool : Boolean = true;
 
     If any perl true value is assigned, the variable is true, if any perl
@@ -54,7 +56,7 @@ USAGE
                                         # }
                                     
 AUTHOR
-    Cliff Stanford, `<cpan at may.be>'
+    Cliff Stanford, `<cpan@may.be>'
 
 BUGS
     Please report any bugs or feature requests to `bug-attribute-boolean+ at

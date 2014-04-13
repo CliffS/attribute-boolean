@@ -20,7 +20,7 @@ use Attribute::Boolean::Value;
 
 =head1 VERSION
 
-Version v0.0.1;
+Version v0.0.1
 
 =cut
 
@@ -65,7 +65,9 @@ sub import {
 An attribute can be declared boolean as follows:
 
     my $bool : Boolean;
+
 or
+
     my $bool : Boolean = true;
 
 If any perl true value is assigned, the variable is true, if any
@@ -115,7 +117,7 @@ sub Boolean : ATTR(SCALAR)
 
 =head1 AUTHOR
 
-Cliff Stanford, C<< <cpan at may.be> >>
+Cliff Stanford, C<< <cpan@may.be> >>
 
 =head1 BUGS
 
