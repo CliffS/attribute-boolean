@@ -4,7 +4,7 @@ Attribute::Boolean - Mark scalars as pure booleans
 
 # VERSION
 
-Version v1.0.5
+Version v1.0.6
 
 # SYNOPSYS
 
@@ -17,9 +17,9 @@ In JSON, it will correctly return false or true values.
     print $bool;    # "false"
     $bool = (1 + 2 == 3);
     print $bool;    # "true"
-    print $bool ? "yes" : "no";	 # "yes"
+    print $bool ? "yes" : "no";  # "yes"
     $bool = false;
-    print $bool ? "yes" : "no";	 # "no"
+    print $bool ? "yes" : "no";  # "no"
 
 # EXPORT
 
@@ -35,8 +35,8 @@ or
 
     my $bool : Boolean = true;
 
-If any perl __true__ value is assigned, the variable is true; if a
-perl __false__ value is assigned, the variable is false.
+If any perl **true** value is assigned, the variable is true; if a
+perl **false** value is assigned, the variable is false.
 
 ## true
 
@@ -55,14 +55,14 @@ the variable will correctly convert to JSON true or false.
     $json->pretty->convert_blessed;
     my $bool : Boolean;
     my %hash = (
-	value => $bool,
-	me    => true,
+        value => $bool,
+        me    => true,
     );
     print $json->encode(\%hash);    # {
-				    #     "value" : false,
-				    #     "me"    : true
-				    # }
-				    
+                                    #     "value" : false,
+                                    #     "me"    : true
+                                    # }
+                                    
 
 # AUTHOR
 
@@ -74,12 +74,6 @@ Please report any bugs or feature requests to `bug-attribute-boolean+ at rt.cpan
 the web interface at [http://rt.cpan.org/NoAuth/ReportBug.html?Queue=attribute-boolean+](http://rt.cpan.org/NoAuth/ReportBug.html?Queue=attribute-boolean+).  I will be notified, and then you'll
 automatically be notified of progress on your bug as I make changes.
 
-
-
-
-
-
-
 # SUPPORT
 
 You can find documentation for this module with the perldoc command.
@@ -89,7 +83,7 @@ You can find documentation for this module with the perldoc command.
 # ACKNOWLEDGEMENTS
 
 Alan Haggai Alavi `<alanhaggai@alanhaggai.org>` for his
-[Scalar::Boolean](http://search.cpan.org/perldoc?Scalar::Boolean) module  which was the inspiration
+[Scalar::Boolean](https://metacpan.org/pod/Scalar::Boolean) module  which was the inspiration
 for this module.
 
 # LICENCE AND COPYRIGHT

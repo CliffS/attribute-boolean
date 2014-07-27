@@ -18,7 +18,7 @@ This is a private class for use only by Attribute::Boolean
 use parent 'Exporter';
 use Carp;
 
-our $VERSION = v1.0.5;
+our $VERSION = v1.0.6;
 our @EXPORT = qw(true false);
 
 sub true();

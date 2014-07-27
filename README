@@ -2,7 +2,7 @@ NAME
     Attribute::Boolean - Mark scalars as pure booleans
 
 VERSION
-    Version v1.0.5
+    Version v1.0.6
 
 SYNOPSYS
     This allows you to flag a variable as a boolean. In numeric context, it
@@ -54,14 +54,14 @@ USAGE
                                         #     "value" : false,
                                         #     "me"    : true
                                         # }
-                                    
+
 AUTHOR
-    Cliff Stanford, `<cpan@may.be>'
+    Cliff Stanford, "<cpan@may.be>"
 
 BUGS
-    Please report any bugs or feature requests to `bug-attribute-boolean+ at
-    rt.cpan.org', or through the web interface at
-    http://rt.cpan.org/NoAuth/ReportBug.html?Queue=attribute-boolean+. I
+    Please report any bugs or feature requests to "bug-attribute-boolean+ at
+    rt.cpan.org", or through the web interface at
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=attribute-boolean+>. I
     will be notified, and then you'll automatically be notified of progress
     on your bug as I make changes.
 
@@ -71,7 +71,7 @@ SUPPORT
         perldoc Attribute::Boolean
 
 ACKNOWLEDGEMENTS
-    Alan Haggai Alavi `<alanhaggai@alanhaggai.org>' for his Scalar::Boolean
+    Alan Haggai Alavi "<alanhaggai@alanhaggai.org>" for his Scalar::Boolean
     module which was the inspiration for this module.
 
 LICENCE AND COPYRIGHT
