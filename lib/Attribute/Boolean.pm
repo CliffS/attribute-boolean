@@ -14,16 +14,17 @@ Attribute::Boolean - Mark scalars as pure booleans
 use Attribute::Handlers;
 use Variable::Magic qw( wizard cast );
 use parent 'Exporter';
+use version;
 
 use Attribute::Boolean::Value;
 
 =head1 VERSION
 
-Version v1.0.6
+Version v1.0.7
 
 =cut
 
-our $VERSION = v1.0.6;
+our $VERSION = version->declare('v1.0.7');
 # Don't forget the version in the pod above.
 
 =head1 SYNOPSYS

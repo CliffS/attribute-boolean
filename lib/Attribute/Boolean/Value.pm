@@ -16,9 +16,10 @@ This is a private class for use only by Attribute::Boolean
 =cut
 
 use parent 'Exporter';
+use version;
 use Carp;
 
-our $VERSION = v1.0.6;
+our $VERSION = version->declare('v1.0.7');
 our @EXPORT = qw(true false);
 
 sub true();
