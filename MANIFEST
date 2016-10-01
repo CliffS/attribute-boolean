@@ -5,8 +5,6 @@ lib/Attribute/Boolean/Value.pm
 Makefile.PL
 MANIFEST
 MANIFEST.SKIP
-MYMETA.json
-MYMETA.yml
 README
 README.md
 t/00-load.t
